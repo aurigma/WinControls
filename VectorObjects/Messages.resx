@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ExStrValueIsTooSmall">
+		<value>Value is too small.</value>
+	</data>
+	<data name="ExStrMaxZoomShouldBeLargerThanMin">
+		<value>Maximum zoom value should be larger than the minimum one.</value>
+	</data>
+	<data name="ExStrCannotFindDesignerOptionsKey">
+		<value>Cannot find a mandatory key in DesignerOptions hash.</value>
+	</data>
+	<data name="ExStrValueShouldBeAboveZero">
+		<value>Value should be greater than zero.</value>
+	</data>
+	<data name="ExStrUnexpectedZoomMode">
+		<value>Unexpected zoom mode has been specified.</value>
+	</data>
+	<data name="ExStrBitmapCannotBeEmpty">
+		<value>Bitmap cannot be empty.</value>
+	</data>
+	<data name="ExStrRenderingRegionShouldBeInsideViewport">
+		<value>Rendering region should be entirely inside viewport.</value>
+	</data>
+	<data name="ExStrCanvasAndViewportDimsShouldBeEqual">
+		<value>Canvas and viewport dimensions should be equal.</value>
+	</data>
+	<data name="ExStrCannotCreateDC">
+		<value>Cannot create compatible DC.</value>
+	</data>
+	<data name="ExStrImageAndViewportDimsShouldBeEqual">
+		<value>Image dimensions should be equal to the viewport ones.</value>
+	</data>
+	<data name="ExStrArrayZeroLengthError">
+		<value>Length of the array should be greater than zero.</value>
+	</data>
+	<data name="ExStrCannotFindIndex">
+		<value>Cannot find specified index.</value>
+	</data>
+	<data name="ExStrControlPointShouldHaveDefCtor">
+		<value>Control point class should have a default constructor.</value>
+	</data>
+	<data name="ExStrCannotDragControlPoint">
+		<value>Cannot drag specified control point. Incorrect point type.</value>
+	</data>
+	<data name="ExStrCannotProcessDisabledControlPoint">
+		<value>Cannot perform action. Control point is disabled.</value>
+	</data>
+	<data name="ExStrTypeShouldBeCloneable">
+		<value>Specified type should implement System.ICloneable interface.</value>
+	</data>
+	<data name="ExStrDesignerShouldBeAttached">
+		<value>Designer object should be attached to an IVObjectHost object.</value>
+	</data>
+	<data name="ExStrIncorrectPointHandle">
+		<value>Incorrect point handle has been specified.</value>
+	</data>
+	<data name="ExStrCannotChangeLockedLayer">
+		<value>Cannot modify a locked layer.</value>
+	</data>
+	<data name="ExStrLayerDoesntContainObject">
+		<value>Layer does not contain specified vector object.</value>
+	</data>
+	<data name="ExStrDstStreamShouldSupportWriting">
+		<value>Destination stream should support writing.</value>
+	</data>
+	<data name="ExStrSrcStreamShouldSupportReading">
+		<value>Source stream should support reading.</value>
+	</data>
+	<data name="ExStrIncorrectType">
+		<value>Value has incorrect type.</value>
+	</data>
+	<data name="ExStrLayersShouldBeSerializable">
+		<value>All layers should be serializable.</value>
+	</data>
+	<data name="ExStrValueAlreadyPresentedInCollection">
+		<value>Specified value already exists in the collection.</value>
+	</data>
+	<data name="ExStrCannotFindSpecifiedValue">
+		<value>Cannot find specified value in the collection.</value>
+	</data>
+	<data name="ExStrUnexpectedDrawMode">
+		<value>Unexpected draw mode has been specified.</value>
+	</data>
+	<data name="ExStrModifyBrushTransformOrderCorrupted">
+		<value>Order of calls to AdaptBrushToViewport/RestoreBrush methods has been corrupted.</value>
+	</data>
+	<data name="ExStrSerializationUnexpectedBufferContent">
+		<value>Unexpected buffer content. Cannot determine type of the serialized object.</value>
+	</data>
+	<data name="ExStrSerializationReaderContentTypeError">
+		<value>Binary reader contains object of different type.</value>
+	</data>
+	<data name="ExStrSerializationUnsupportedBrushType">
+		<value>Unsupported brush type. Cannot deserialize the object.</value>
+	</data>
+	<data name="ExStrSerializationCannotSerializeBrush">
+		<value>Cannot serialize specified brush object. It isn't marked with Serializable attribute.</value>
+	</data>
+	<data name="ExStrSerializationReaderDataIncorrect">
+		<value>Binary reader data is incorrect.</value>
+	</data>
+	<data name="ExStrObjectCannotBeEmpty">
+		<value>Object cannot be empty.</value>
+	</data>
+	<data name="ExStrUndoRedoShouldBeEnabled">
+		<value>Undo/redo functionality should be enabled before method call.</value>
+	</data>
+	<data name="ExStrCannotChangeDesignerWhileNoCurLayer">
+		<value>Cannot change the designer until there is no current layer selected.</value>
+	</data>
+	<data name="ExStrObjectShouldBelongToCurLayer">
+		<value>Only default designer or designer of an object which belongs to the current layer can be attached.</value>
+	</data>
+	<data name="ExStrObjectShouldBelongToEnabledLayer">
+		<value>Only default designer or desinger of an object from a visible and not locked layer can be attached.</value>
+	</data>
+	<data name="ExStrCurLayerShouldBeInVObjectHost">
+		<value>Specified layer should belong to the host's layer collection.</value>
+	</data>
+	<data name="ExStrVObjRubberbandAcceptsBitmapViewer">
+		<value>VObjectRubberband can be attached only to a BitmapViewer control.</value>
+	</data>
+	<data name="ExStrUnexpectedScrollValue">
+		<value>Unexpected scroll value has been specified.</value>
+	</data>
+	<data name="MultiLayerViewer_ResizeProportionallyWithShift">
+		<value>Indicates whether to use proportional resize for objects while shift key pressed.</value>
+	</data>
+	<data name="MultiLayerViewer_MultiSelect">
+		<value>Allows user to select multiple objects in workspace.</value>
+	</data>
+	<data name="MultiLayerViewer_DragOnlyMultipleObjects">
+		<value>Determines whether to deny all actions except dragging when more than one object is selected.</value>
+	</data>
+	<data name="MultiLayerViewer_MaxUndoStepCount">
+		<value>Gets/sets maximum number of available undo steps (levels).</value>
+	</data>
+	<data name="MultiLayerViewer_UndoRedoTrackingEnabled">
+		<value>Determines whether to save VObjects state automatically in case of changes in workspace.</value>
+	</data>
+	<data name="MultiLayerViewer_UndoRedoEnabled">
+		<value>Enables or disables undo/redo functionality.</value>
+	</data>
+	<data name="MultiLayerViewer_Unit">
+		<value>Gets/sets units in which workspace is measured.</value>
+	</data>
+	<data name="MultiLayerViewer_WorkspaceBackgroundStyle">
+		<value>Gets/sets the background style of the image.</value>
+	</data>
+	<data name="MultiLayerViewer_WorkspaceBackColor1">
+		<value>Gets/sets the primary color of the bitmap background (the first color of "check-board" or solid color).</value>
+	</data>
+	<data name="MultiLayerViewer_WorkspaceBackColor2">
+		<value>Gets/sets the secondary color of the bitmap background (the second color of "check-board").</value>
+	</data>
+	<data name="MultiLayerViewer_WorkspaceBorderEnabled">
+		<value>Gets/sets the value that specifies whether to display the border around workspace.</value>
+	</data>
+	<data name="MultiLayerViewer_WorkspaceBorderWidth">
+		<value>Gets/sets the width of the workspace border.</value>
+	</data>
+	<data name="MultiLayerViewer_ScrollBarsStyle">
+		<value>Gets/sets a value that specifies whether to display scroll bar and whether to hide them automatically when the displayed image is less than the control size.</value>
+	</data>
+	<data name="MultiLayerViewer_ViewportAlignment">
+		<value>Contains possible values for the viewport alignment inside the control.</value>
+	</data>
+	<data name="MultiLayerViewer_WorkspaceBorderColor">
+		<value>Gets/sets the color of the workspace border.</value>
+	</data>
+</root>

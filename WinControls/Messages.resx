@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ThumbnailListView_ThumbnailSize" xml:space="preserve">
+    <value>Thumbnail's size in pixels in Thumbnails view.</value>
+  </data>
+  <data name="PlacementMode" xml:space="preserve">
+    <value>Contains supported image placement modes at the page.</value>
+  </data>
+  <data name="PlacementMode_SingleImage" xml:space="preserve">
+    <value>Single placeholder (image) is placed at the single page.</value>
+  </data>
+  <data name="PlacementMode_MultipleImages" xml:space="preserve">
+    <value>Multiple placeholders are placed at the page automatically. To print more images at the single page it is recommended to set PrintOptions.PlaceholderAutoRotate option to true.</value>
+  </data>
+  <data name="PlacementMode_Manual" xml:space="preserve">
+    <value>The placeholder position is placed manually in the QueryImage event of the ImagePrintDocument class.</value>
+  </data>
+  <data name="PlacementMode_Auto" xml:space="preserve">
+    <value>To be supplied...</value>
+  </data>
+  <data name="ImageFitMode" xml:space="preserve">
+    <value>Contains values specifying how to handle situations when the image is not fit at its placeholder at the page.</value>
+  </data>
+  <data name="ImageFitMode_CropToFit" xml:space="preserve">
+    <value>Crops the image to fit image into placeholder size. The crop area is centered.</value>
+  </data>
+  <data name="ImageFitMode_ResizeToFit" xml:space="preserve">
+    <value>Resizes the image to have the same size as a placeholder for this image at the page (preserving the aspect ratio though). The image is resized even if it is smaller than the placeholder.</value>
+  </data>
+  <data name="ImageFitMode_ShrinkToFit" xml:space="preserve">
+    <value>Resizes the image to have the same size as a placeholder for this image at the page (preserving the aspect ratio though) only if the image is larger than the placeholder. If the image is smaller, it is not changed.</value>
+  </data>
+  <data name="QueryImageEventHandler" xml:space="preserve">
+    <value>This delegate represents the method that will handle the QueryImage event of the ImagePrintDocument class and its descendants.</value>
+  </data>
+  <data name="ImagePrintDocument" xml:space="preserve">
+    <value>This class represents an object which sends images to a printer.</value>
+  </data>
+  <data name="ImagePrintDocument_QueryImage" xml:space="preserve">
+    <value>Fires when the image is requested to be printed.</value>
+  </data>
+  <data name="ImagePrintDocument_BeforePrintPage" xml:space="preserve">
+    <value>Fires before the control starts printing images at the page.</value>
+  </data>
+  <data name="ImagePrintDocument_PlacementMode" xml:space="preserve">
+    <value>The mode of image placement during printing.</value>
+  </data>
+  <data name="ImagePrintDocument_PrintOptions" xml:space="preserve">
+    <value>The object which specifies print settings.</value>
+  </data>
+  <data name="PrintPlaceholder" xml:space="preserve">
+    <value>This class encapsulates the single item printed in the ImagePrintDocument class.</value>
+  </data>
+  <data name="PrintOptions_ImageFitMode" xml:space="preserve">
+    <value>The value which specifies how to handle situations when the image is not fit at its placeholder at the page.</value>
+  </data>
+  <data name="PrintOptions_ImageAutoRotate" xml:space="preserve">
+    <value>The value which allows the control to analyze the orientation of the image and automatically rotate it if necessary.</value>
+  </data>
+  <data name="PrintOptions_PlaceholderAutoRotate" xml:space="preserve">
+    <value>The value which enables to optimize paper usage by rotating the placeholder when it.</value>
+  </data>
+  <data name="PrintOptions_PlaceholderSize" xml:space="preserve">
+    <value>The default dimensions of the placeholder.</value>
+  </data>
+  <data name="PrintOptions_VerticalSpacing" xml:space="preserve">
+    <value>The vertical spacing between placeholders.</value>
+  </data>
+  <data name="PrintOptions_HorizontalSpacing" xml:space="preserve">
+    <value>The horizontal spacing between placeholders.</value>
+  </data>
+  <data name="PrintOptions_InterpolationMode" xml:space="preserve">
+    <value>The interpolation mode used to scale the images when its size differs from the size of the placeholder.</value>
+  </data>
+  <data name="PrintOptions_HeaderEnabled" xml:space="preserve">
+    <value>The value which enables the header text for each printed item.</value>
+  </data>
+  <data name="PrintOptions_FooterEnabled" xml:space="preserve">
+    <value>The value which enables the footer text for each printed item.</value>
+  </data>
+  <data name="PrintOptions_HeaderFont" xml:space="preserve">
+    <value>The font settings of the header text.</value>
+  </data>
+  <data name="PrintOptions_FooterFont" xml:space="preserve">
+    <value>The font settings of the footer text.</value>
+  </data>
+  <data name="PrintOptions_HeaderAlignment" xml:space="preserve">
+    <value>The alignment of the header text.</value>
+  </data>
+  <data name="PrintOptions_FooterAlignment" xml:space="preserve">
+    <value>The alignment of the footer text.</value>
+  </data>
+  <data name="PrintOptions_HeaderTrimming" xml:space="preserve">
+    <value>The string trimming settings of the header text when it is do not fit the placeholder.</value>
+  </data>
+  <data name="PrintOptions_FooterTrimming" xml:space="preserve">
+    <value>The string trimming settings of the footer text when it is do not fit the placeholder.</value>
+  </data>
+  <data name="PrintOptions_HeaderColor" xml:space="preserve">
+    <value>The color of the header text.</value>
+  </data>
+  <data name="PrintOptions_FooterColor" xml:space="preserve">
+    <value>The color of the footer text.</value>
+  </data>
+  <data name="PrintOptions_BorderEnabled" xml:space="preserve">
+    <value>The value which enables a border around each placeholder.</value>
+  </data>
+  <data name="PrintOptions_BorderColor" xml:space="preserve">
+    <value>The color of the border around the placeholder.</value>
+  </data>
+  <data name="PrintOptions_BorderWidth" xml:space="preserve">
+    <value>The width of the border around the placeholder.</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Contains values for all possible view modes for the control.</value>
+  </data>
+  <data name="View_Thumbnails" xml:space="preserve">
+    <value>Control displays items as set thumbnails of specified size.</value>
+  </data>
+  <data name="View_Icons" xml:space="preserve">
+    <value>Control displays items as set of large icons.</value>
+  </data>
+  <data name="View_List" xml:space="preserve">
+    <value>Control displays items as list of small icons.</value>
+  </data>
+  <data name="View_Details" xml:space="preserve">
+    <value>Control displays items in a table with specified columns.</value>
+  </data>
+  <data name="StateType" xml:space="preserve">
+    <value>Contains values which specify possible item states.</value>
+  </data>
+  <data name="StateType_Selection" xml:space="preserve">
+    <value>Selection state.</value>
+  </data>
+  <data name="StateType_Check" xml:space="preserve">
+    <value>Check state.</value>
+  </data>
+  <data name="StateType_Focus" xml:space="preserve">
+    <value>Focus state.</value>
+  </data>
+  <data name="ImageListType" xml:space="preserve">
+    <value>Contains values which specify type of image list.</value>
+  </data>
+  <data name="ImageListType_Small" xml:space="preserve">
+    <value>Small icons image list.</value>
+  </data>
+  <data name="ImageListType_Thumbnails" xml:space="preserve">
+    <value>Thumbnails image list.</value>
+  </data>
+  <data name="ImageListType_Large" xml:space="preserve">
+    <value>Large icons image list.</value>
+  </data>
+  <data name="ItemEventArgs" xml:space="preserve">
+    <value>Base class for all classes that contains item-related events data.</value>
+  </data>
+  <data name="ItemEventArgs_ItemEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the BaseItemEventArgs class.</value>
+  </data>
+  <data name="ItemEventArgs_Item" xml:space="preserve">
+    <value>Item concerned with the event.</value>
+  </data>
+  <data name="ItemDragEventArgs" xml:space="preserve">
+    <value>Provides data for ItemDrag event of ThumbnailListView.</value>
+  </data>
+  <data name="ItemDragEventArgs_ItemDragEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ItemDragEventArgs class.</value>
+  </data>
+  <data name="ItemDragEventArgs_MouseButton" xml:space="preserve">
+    <value>Gets name of the mouse button that was clicked during the drag operation.</value>
+  </data>
+  <data name="TextChangedEventArgs" xml:space="preserve">
+    <value>Provides data for TextChanged event of ThumbnailListView, IListItem and IListItemCollection.</value>
+  </data>
+  <data name="TextChangedEventArgs_TextChangedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the TextChangedEventArgs class.</value>
+  </data>
+  <data name="TextChangedEventArgs_TextInfoId" xml:space="preserve">
+    <value>Specifies type of the text information that has been changed.</value>
+  </data>
+  <data name="IconChangedEventArgs" xml:space="preserve">
+    <value>Provides data for IconChangedEvent  of ThumbnailListView, IListItem and IListItemCollection.</value>
+  </data>
+  <data name="IconChangedEventArgs_IconChangedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the IconChangedEventArgs class.</value>
+  </data>
+  <data name="IconChangedEventArgs_View" xml:space="preserve">
+    <value>Type of image list in which icon has been changed.</value>
+  </data>
+  <data name="StateChangingEventArgs" xml:space="preserve">
+    <value>Provides data for StateChanging event of ThumbnailListView, IListItem and IListItemCollection.</value>
+  </data>
+  <data name="StateChangingEventArgs_StateChangingEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the StateChangingEventArgs class.</value>
+  </data>
+  <data name="StateChangingEventArgs_StateType" xml:space="preserve">
+    <value>Type of item's state that is changing.</value>
+  </data>
+  <data name="StateChangingEventArgs_Cancel" xml:space="preserve">
+    <value>Gets or sets a value indicating whether the changes should be canceled.</value>
+  </data>
+  <data name="StateChangedEventArgs" xml:space="preserve">
+    <value>Provides data for StateChanged event of ThumbnailListView, IListItem and IListItemCollection.</value>
+  </data>
+  <data name="StateChangedEventArgs_StateChangedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the StateChangedEventArgs class.</value>
+  </data>
+  <data name="StateChangedEventArgs_StateType" xml:space="preserve">
+    <value>Type of item's state that has been changed.</value>
+  </data>
+  <data name="ViewChangedEventArgs" xml:space="preserve">
+    <value>Provides data for ViewChanged event of ThumbnailListView control.</value>
+  </data>
+  <data name="ViewChangedEventArgs_ViewChangedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ViewChangedEventArgs class.</value>
+  </data>
+  <data name="ViewChangedEventArgs_NewView" xml:space="preserve">
+    <value>New view mode of the control.</value>
+  </data>
+  <data name="ItemActionRequestEventArgs" xml:space="preserve">
+    <value>Provides data for action request events of ThumbnailListView, IListItem and IListItemCollection.</value>
+  </data>
+  <data name="ItemActionRequestEventArgs_ItemActionRequestEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ItemActionRequestEventArgs class.</value>
+  </data>
+  <data name="ItemActionRequestEventArgs_Cancel" xml:space="preserve">
+    <value>The value determining whether the action of the event should be canceled or not.</value>
+  </data>
+  <data name="ItemInsertingEventArgs" xml:space="preserve">
+    <value>Provides data for ItemInserting event of the IListItemCollection.</value>
+  </data>
+  <data name="ItemInsertingEventArgs_ItemInsertingEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ItemInsertingEventArgs class.</value>
+  </data>
+  <data name="ItemsEventArgs" xml:space="preserve">
+    <value>Base class for other event arguments classes which contain information about set of items.</value>
+  </data>
+  <data name="ItemsEventArgs_ItemsEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ItemsEventArgs class.</value>
+  </data>
+  <data name="ItemsEventArgs_Items" xml:space="preserve">
+    <value>Items affected by the event.</value>
+  </data>
+  <data name="ItemsRemovedEventArgs" xml:space="preserve">
+    <value>Provides data for ItemsRemoved event.</value>
+  </data>
+  <data name="ListColumn" xml:space="preserve">
+    <value>Represents column of the ThumbnailListView.</value>
+  </data>
+  <data name="ItemsRemovedEventArgs_ItemsRemovedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ItemsRemovedEventArgs class.</value>
+  </data>
+  <data name="ItemsRemovedEventArgs_RemovedItemsIndices" xml:space="preserve">
+    <value>Indices of removed items in ListItemCollection of the ThumbnailList.</value>
+  </data>
+  <data name="ItemsInsertedEventArgs" xml:space="preserve">
+    <value>Provides information for ItemsInserted event of the ListItemCollection of ThumbnailListView.</value>
+  </data>
+  <data name="ItemsInsertedEventArgs_ItemsInsertedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ItemsInsertedEventArgs class.</value>
+  </data>
+  <data name="ItemsInsertedEventArgs_Index" xml:space="preserve">
+    <value>Index of the first inserted item.</value>
+  </data>
+  <data name="ColumnChangedEventArgs" xml:space="preserve">
+    <value>Provides info for ColumnChanged event of ListColumn and ListColumnCollection.</value>
+  </data>
+  <data name="ColumnChangedEventArgs_ColumnChangedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnChangedEventArgs class.</value>
+  </data>
+  <data name="ColumnChangedEventArgs_ChangeType" xml:space="preserve">
+    <value>Column change type.</value>
+  </data>
+  <data name="ColumnClickEventArgs" xml:space="preserve">
+    <value>Provides information for ColumnClick event of the ThumbnailListView control.</value>
+  </data>
+  <data name="ColumnClickEventArgs_ColumnClickEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnClickEventArgs class.</value>
+  </data>
+  <data name="ColumnClickEventArgs_Index" xml:space="preserve">
+    <value>Index of the column that has been clicked.</value>
+  </data>
+  <data name="ColumnClickEventArgs_Column" xml:space="preserve">
+    <value>Column that has been clicked.</value>
+  </data>
+  <data name="LabelEditedEventArgs" xml:space="preserve">
+    <value>Provides information for LabelEdited event of the ThumbnailListView control.</value>
+  </data>
+  <data name="LabelEditedEventArgs_LabelEditedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the LabelEditedEventArgs class.</value>
+  </data>
+  <data name="LabelEditedEventArgs_NewText" xml:space="preserve">
+    <value>New label text of the item.</value>
+  </data>
+  <data name="ColumnRemovingEventArgs" xml:space="preserve">
+    <value>Provides information for ColumnRemoving event of the IListColumnCollection.</value>
+  </data>
+  <data name="ColumnEventArgs" xml:space="preserve">
+    <value>Provides information for column-related events.</value>
+  </data>
+  <data name="ColumnEventArgs_ColumnEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnEventArgs class.</value>
+  </data>
+  <data name="ColumnEventArgs_Column" xml:space="preserve">
+    <value>The column to which event is related.</value>
+  </data>
+  <data name="ColumnRemovingEventArgs_ColumnRemovingEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnRemovingEventArgs class.</value>
+  </data>
+  <data name="ColumnRemovingEventArgs_Cancel" xml:space="preserve">
+    <value>Gets or sets a value indicating whether the column adding should be canceled.</value>
+  </data>
+  <data name="ColumnInsertingEventArgs" xml:space="preserve">
+    <value>Provides information for ColumnInserting event of IListColumnCollection.</value>
+  </data>
+  <data name="ColumnInsertingEventArgs_ColumnInsertingEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnInsertingEventArgs class.</value>
+  </data>
+  <data name="ColumnInsertingEventArgs_Index" xml:space="preserve">
+    <value>Gets destination column index.</value>
+  </data>
+  <data name="ColumnsEventArgs" xml:space="preserve">
+    <value>Base class for other event arguments classes which contain information about set of columns.</value>
+  </data>
+  <data name="ColumnsEventArgs_ColumnsEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnsEventArgs class.</value>
+  </data>
+  <data name="ColumnsEventArgs_Columns" xml:space="preserve">
+    <value>Columns affected by the event.</value>
+  </data>
+  <data name="ColumnsInsertedEventArgs" xml:space="preserve">
+    <value>Provides information for ColumnsInserted event of the IListColumnCollection.</value>
+  </data>
+  <data name="ColumnsInsertedEventArgs_ColumnsInsertedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnsInsertedEventArgs class.</value>
+  </data>
+  <data name="ColumnsInsertedEventArgs_Index" xml:space="preserve">
+    <value>Index of the first inserted column.</value>
+  </data>
+  <data name="ColumnsRemovedEventArgs" xml:space="preserve">
+    <value>Provides information for ColumnsRemoved event of the IListColumnCollection.</value>
+  </data>
+  <data name="ColumnsRemovedEventArgs_ColumnsRemovedEventArgs" xml:space="preserve">
+    <value>Initializes new instance of the ColumnsRemovedEventArgs class.</value>
+  </data>
+  <data name="ColumnsRemovedEventArgs_RemovedColumnsIndices" xml:space="preserve">
+    <value>Indices of removed columns.</value>
+  </data>
+  <data name="IListItem" xml:space="preserve">
+    <value>Determines interface of the ThumbnailListView item.</value>
+  </data>
+  <data name="IListItem_HasIcon" xml:space="preserve">
+    <value>Returns value indicating whether the item has icon for specified control's view mode.</value>
+  </data>
+  <data name="IListItem_GetIconIndex" xml:space="preserve">
+    <value>Returns index of the item's icon in corresponding image list for specified view mode of the ThumbnailListView.</value>
+  </data>
+  <data name="IListItem_HasText" xml:space="preserve">
+    <value>Returns value indicating whether the item has text information of specified type.</value>
+  </data>
+  <data name="IListItem_GetText" xml:space="preserve">
+    <value>Returns item's text information of specified type.</value>
+  </data>
+  <data name="IListItem_IconChanged" xml:space="preserve">
+    <value>Occurs when item's icon has changed.</value>
+  </data>
+  <data name="IListItem_TextChanged" xml:space="preserve">
+    <value>Occurs when item's text has changed.</value>
+  </data>
+  <data name="IListItem_StateChanging" xml:space="preserve">
+    <value>Occurs when item's state is changing.</value>
+  </data>
+  <data name="IListItem_StateChanged" xml:space="preserve">
+    <value>Occurs when item changed its state (selection, check or focus).</value>
+  </data>
+  <data name="IListItem_Selected" xml:space="preserve">
+    <value>Sets or gets value indicating whether item is selected or not.</value>
+  </data>
+  <data name="IListItem_Focused" xml:space="preserve">
+    <value>Sets or gets value indicating whether item has focus or not.</value>
+  </data>
+  <data name="IListItem_CheckEnabled" xml:space="preserve">
+    <value>Sets or gets value indicating whether item can be marked with a check or not.</value>
+  </data>
+  <data name="IListItem_Checked" xml:space="preserve">
+    <value>Sets or gets value indicating whether item is checked or not.</value>
+  </data>
+  <data name="IListItem_Parent" xml:space="preserve">
+    <value>Reference to parent ThumbnailListView control of the item.</value>
+  </data>
+  <data name="IListItem_Tag" xml:space="preserve">
+    <value>Custom user defined value.</value>
+  </data>
+  <data name="IListViewImageList" xml:space="preserve">
+    <value>Determines interface of the ThumbnailListView control's image list.</value>
+  </data>
+  <data name="IListViewImageList_AddImage0" xml:space="preserve">
+    <value>Adds icon to the image list.</value>
+  </data>
+  <data name="IListViewImageList_AddImage1" xml:space="preserve">
+    <value>Adds image to the image list.</value>
+  </data>
+  <data name="IListViewImageList_AddDefaultImage0" xml:space="preserve">
+    <value>Sets default icon.</value>
+  </data>
+  <data name="IListViewImageList_AddDefaultImage1" xml:space="preserve">
+    <value>Sets default image.</value>
+  </data>
+  <data name="IListViewImageList_Clear" xml:space="preserve">
+    <value>Deletes all objects from the image list.</value>
+  </data>
+  <data name="IQueueItem" xml:space="preserve">
+    <value>Determines interface of the IQueue item.</value>
+  </data>
+  <data name="IQueueItem_MethodCount" xml:space="preserve">
+    <value>Returns item methods count. Each method will be executed in separate thread asynchronously.</value>
+  </data>
+  <data name="IQueueItem_EvaluateMethod" xml:space="preserve">
+    <value>Starts execution of the specified method.</value>
+  </data>
+  <data name="IQueueItem_GetMethodState" xml:space="preserve">
+    <value>Starts execution of the specified method.</value>
+  </data>
+  <data name="ListColumn_ListColumn" xml:space="preserve">
+    <value>Initializes new instance of the ListColumn class.</value>
+  </data>
+  <data name="ListColumn_TextInfoId" xml:space="preserve">
+    <value>Sets or gets type of text information displaying by the column.</value>
+  </data>
+  <data name="ListColumn_Caption" xml:space="preserve">
+    <value>Sets or gets caption of the column.</value>
+  </data>
+  <data name="ListColumn_Width" xml:space="preserve">
+    <value>Sets or gets column width.</value>
+  </data>
+  <data name="ListColumn_TextAlignment" xml:space="preserve">
+    <value>Sets or gets column alignment.</value>
+  </data>
+  <data name="ListColumn_Clone" xml:space="preserve">
+    <value>Creates a new object that is a copy of the current instance.</value>
+  </data>
+  <data name="ListColumnCollection" xml:space="preserve">
+    <value>Represents columns collection of the ThumbnailListView control.</value>
+  </data>
+  <data name="ListColumnCollection_ListColumnCollection" xml:space="preserve">
+    <value>Initializes new instance of the ListColumnCollection class.</value>
+  </data>
+  <data name="ListColumnCollection_Indexer" xml:space="preserve">
+    <value>Collection indexer.</value>
+  </data>
+  <data name="ListColumnCollection_Add0" xml:space="preserve">
+    <value>Adds a column to the collection.</value>
+  </data>
+  <data name="ListColumnCollection_Add1" xml:space="preserve">
+    <value>Adds array of columns to the collection.</value>
+  </data>
+  <data name="ListColumnCollection_IndexOf" xml:space="preserve">
+    <value>Searches for the specified column and returns the zero-based index of the first occurrence within the entire collection.</value>
+  </data>
+  <data name="ListColumnCollection_Insert0" xml:space="preserve">
+    <value>Inserts an element into the collection at the specified index.</value>
+  </data>
+  <data name="ListColumnCollection_Insert1" xml:space="preserve">
+    <value>Inserts an array of columns into the collection at the specified index.</value>
+  </data>
+  <data name="ListColumnCollection_Remove0" xml:space="preserve">
+    <value>Removes specified column from the collection.</value>
+  </data>
+  <data name="ListColumnCollection_Remove1" xml:space="preserve">
+    <value>Removes specified columns from the collection.</value>
+  </data>
+  <data name="ListColumnCollection_RemoveAt" xml:space="preserve">
+    <value>Removes the element at the specified index of the collection.</value>
+  </data>
+  <data name="ListColumnCollection_Contains" xml:space="preserve">
+    <value>Determines whether an element is in the collection.</value>
+  </data>
+  <data name="ListColumnCollection_Clear" xml:space="preserve">
+    <value>Removes all items from the collection.</value>
+  </data>
+  <data name="ListColumnCollection_ToArray" xml:space="preserve">
+    <value>Copies the elements of the collection to a new array.</value>
+  </data>
+  <data name="ListColumnCollection_ColumnInserting" xml:space="preserve">
+    <value>Occurs when new column is inserting into the collection.</value>
+  </data>
+  <data name="ListColumnCollection_ColumnRemoving" xml:space="preserve">
+    <value>Occurs when column is removing.</value>
+  </data>
+  <data name="ListColumnCollection_ColumnsInserted" xml:space="preserve">
+    <value>Occurs when columns have been inserted into the collection.</value>
+  </data>
+  <data name="ListColumnCollection_ColumnsRemoved" xml:space="preserve">
+    <value>Occurs when columns have been removed from the collection.</value>
+  </data>
+  <data name="ListColumnCollection_ColumnChanged" xml:space="preserve">
+    <value>Occurs when a column of the collection have been changed.</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Represents partial implementation for list item of the ThumbnailListView control.</value>
+  </data>
+  <data name="ListItem_ListItem" xml:space="preserve">
+    <value>Initializes new Instance of the ListItem class.</value>
+  </data>
+  <data name="ListItemCollection" xml:space="preserve">
+    <value>Represents items collection of the ThumbnailListView control.</value>
+  </data>
+  <data name="ListItemCollection_Indexer" xml:space="preserve">
+    <value>Collection indexer.</value>
+  </data>
+  <data name="ListItemCollection_Add0" xml:space="preserve">
+    <value>Adds new item into the collection.</value>
+  </data>
+  <data name="ListItemCollection_Add1" xml:space="preserve">
+    <value>Adds array of items into the collection.</value>
+  </data>
+  <data name="ListItemCollection_IndexOf" xml:space="preserve">
+    <value>Searches for the specified item and returns the zero-based index of the first occurrence within the entire collection.</value>
+  </data>
+  <data name="ListItemCollection_Insert0" xml:space="preserve">
+    <value>Inserts an element into the collection at the specified index.</value>
+  </data>
+  <data name="ListItemCollection_Insert1" xml:space="preserve">
+    <value>Inserts an array of items into the collection at the specified index.</value>
+  </data>
+  <data name="ListItemCollection_Clear" xml:space="preserve">
+    <value>Removes all objects from the collection instance.</value>
+  </data>
+  <data name="ListItemCollection_Remove0" xml:space="preserve">
+    <value>Removes specified item from the collection.</value>
+  </data>
+  <data name="ListItemCollection_Remove1" xml:space="preserve">
+    <value>Removes specified items from the collection.</value>
+  </data>
+  <data name="ListItemCollection_RemoveAt" xml:space="preserve">
+    <value>Removes the element at the specified index of the collection.</value>
+  </data>
+  <data name="ListItemCollection_Contains" xml:space="preserve">
+    <value>Determines whether an element is in the collection.</value>
+  </data>
+  <data name="ListItemCollection_QueueManager" xml:space="preserve">
+    <value>Returns queue manager of the control.</value>
+  </data>
+  <data name="ListItemCollection_ToArray" xml:space="preserve">
+    <value>Copies the elements of the collection to a new array.</value>
+  </data>
+  <data name="ListItemCollection_GetItemsByState" xml:space="preserve">
+    <value>Returns items with specified state value.</value>
+  </data>
+  <data name="ListItemCollection_ItemInserting" xml:space="preserve">
+    <value>Occurs when new item is inserting into the collection.</value>
+  </data>
+  <data name="ListItemCollection_ItemRemoving" xml:space="preserve">
+    <value>Occurs when item is removing from the collection.</value>
+  </data>
+  <data name="ListItemCollection_ItemsInserted" xml:space="preserve">
+    <value>Occurs when new items have been inserted into the collection.</value>
+  </data>
+  <data name="ListItemCollection_ItemsRemoved" xml:space="preserve">
+    <value>Occurs when items have been removed from the collection.</value>
+  </data>
+  <data name="ListItemCollection_StateChanging" xml:space="preserve">
+    <value>Occurs when item's state is changing.</value>
+  </data>
+  <data name="ListItemCollection_IconChanged" xml:space="preserve">
+    <value>Occurs when icon of one of the items of the collection has changed.</value>
+  </data>
+  <data name="ListItemCollection_TextChanged" xml:space="preserve">
+    <value>Occurs when text of one of the items of the collection has changed.</value>
+  </data>
+  <data name="ListItemCollection_StateChanged" xml:space="preserve">
+    <value>Occurs when state of one of the items of the collection has changed.</value>
+  </data>
+  <data name="ListItemCollection_GetImageList0" xml:space="preserve">
+    <value>Returns reference to the image list for specified view mode of the control.</value>
+  </data>
+  <data name="ListItemCollection_GetImageList1" xml:space="preserve">
+    <value>Returns reference to the image list of specified type.</value>
+  </data>
+  <data name="QueueManager" xml:space="preserve">
+    <value>Represents class that manages number of queues. It unites work with all queues into a single object.</value>
+  </data>
+  <data name="QueueManager_MoveToHead" xml:space="preserve">
+    <value>Moves specified item to the top in specified queue.</value>
+  </data>
+  <data name="QueueManager_StartQueues" xml:space="preserve">
+    <value> Starts execution of all queues of the manager.</value>
+  </data>
+  <data name="ThumbnailListItem" xml:space="preserve">
+    <value>Represents list item of the ThumbnailListView control.</value>
+  </data>
+  <data name="ThumbnailListItem_Create" xml:space="preserve">
+    <value>Creates array of ThumbListItems, whose each element is based on the corresponding element of the pidls array.</value>
+  </data>
+  <data name="ThumbnailListItem_ThumbnailListItem0" xml:space="preserve">
+    <value>Initializes new instance of the ThumbnailListItem class. The instance represents object pointed by the Pidl.</value>
+  </data>
+  <data name="ThumbnailListItem_ThumbnailListItem1" xml:space="preserve">
+    <value>Initializes new instance of the ThumbnailListItem class. The instance represents file system object pointed by the path string.</value>
+  </data>
+  <data name="ThumbnailListItem_ThumbnailListItem2" xml:space="preserve">
+    <value>Initializes new instance of the ThumbnailListItem class. The instance represents one of the system standard folders.</value>
+  </data>
+  <data name="ThumbnailListItem_Pidl" xml:space="preserve">
+    <value>Gets PIDL of the item's underlying shell object.</value>
+  </data>
+  <data name="ThumbnailListView_ThumbnailListView" xml:space="preserve">
+    <value>Initializes new instance of the ThumbnailListView class.</value>
+  </data>
+  <data name="ThumbnailListView_ListItemBackgroundImage" xml:space="preserve">
+    <value>Sets or gets item's background image for Thumbnails mode of the control.</value>
+  </data>
+  <data name="ThumbnailListView_Items" xml:space="preserve">
+    <value>Gets items collection.</value>
+  </data>
+  <data name="ThumbnailListView_ListItemForegroundImage" xml:space="preserve">
+    <value>Sets or gets item's foreground image for Thumbnails mode of the control.</value>
+  </data>
+  <data name="ThumbnailListItem_Clone" xml:space="preserve">
+    <value>Creates a new object that is a copy of the current instance.</value>
+  </data>
+  <data name="ThumbnailListView" xml:space="preserve">
+    <value>Thumbnail list view class.</value>
+  </data>
+  <data name="ThumbnailListView_SelectedItems" xml:space="preserve">
+    <value>Gets array of currently selected items.</value>
+  </data>
+  <data name="ThumbnailListView_SelectedIndices" xml:space="preserve">
+    <value>Gets array of the indices of the selected items.</value>
+  </data>
+  <data name="ThumbnailListView_CheckedItems" xml:space="preserve">
+    <value>Gets array of currently checked items.</value>
+  </data>
+  <data name="ThumbnailListView_CheckedIndices" xml:space="preserve">
+    <value>Gets array of the indices of the checked items.</value>
+  </data>
+  <data name="ThumbnailListView_Columns" xml:space="preserve">
+    <value>The columns shown in Details view.</value>
+  </data>
+  <data name="ThumbnailListView_UseDragToMove" xml:space="preserve">
+    <value>Determines whether user can use drag and drop operations to change items order in the control.</value>
+  </data>
+  <data name="VirtualListView" xml:space="preserve">
+    <value>Partial implementation of the ThumbnailListView control.</value>
+  </data>
+  <data name="VirtualListView_ArrangeIcons" xml:space="preserve">
+    <value>Arranges items in the control when they are displayed as icons.</value>
+  </data>
+  <data name="VirtualListView_EnsureVisible" xml:space="preserve">
+    <value>Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. </value>
+  </data>
+  <data name="VirtualListView_BeginUpdate" xml:space="preserve">
+    <value>Prevents changes in that window from being redrawn. Can be useful if an application must add several items to the control.</value>
+  </data>
+  <data name="VirtualListView_EndUpdate" xml:space="preserve">
+    <value>Allows changes in that window to be redrawn. Must be called after BeginUpdate() call.</value>
+  </data>
+  <data name="VirtualListView_VirtualListView" xml:space="preserve">
+    <value>Initializes new instance of the VirtualListView class.</value>
+  </data>
+  <data name="VirtualListView_ViewChanged" xml:space="preserve">
+    <value>Occurs when the control view mode has been changed.</value>
+  </data>
+  <data name="VirtualListView_ColumnClick" xml:space="preserve">
+    <value>Occurs when a column header is clicked.</value>
+  </data>
+  <data name="VirtualListView_LabelEditing" xml:space="preserve">
+    <value>Occurs when the text of an item is about to be edited by the user.</value>
+  </data>
+  <data name="VirtualListView_LabelEdited" xml:space="preserve">
+    <value>Occurs when the text of an item has been edited by the user.</value>
+  </data>
+  <data name="VirtualListView_SelectedItemsChanged" xml:space="preserve">
+    <value>Occurs when the set of currently selected items has been changed.</value>
+  </data>
+  <data name="VirtualListView_ItemActivate" xml:space="preserve">
+    <value>Occurs when an item is activated.</value>
+  </data>
+  <data name="VirtualListView_ItemDrag" xml:space="preserve">
+    <value>Occurs when the user begins dragging an item.</value>
+  </data>
+  <data name="VirtualListView_Activation" xml:space="preserve">
+    <value>Type of action the user must take to activate an item.</value>
+  </data>
+  <data name="VirtualListView_AllowColumnReorder" xml:space="preserve">
+    <value>A value indicating whether the user can drag column headers to reorder columns in the control.</value>
+  </data>
+  <data name="VirtualListView_AutoArrange" xml:space="preserve">
+    <value>Indicates whether icons are automatically kept arranged.</value>
+  </data>
+  <data name="VirtualListView_BackColor" xml:space="preserve">
+    <value>Gets or sets the background color for the control.</value>
+  </data>
+  <data name="VirtualListView_BorderStyle" xml:space="preserve">
+    <value>The border style of the control.</value>
+  </data>
+  <data name="VirtualListView_CheckBoxes" xml:space="preserve">
+    <value>Indicates whether a check boxes are displayed beside items.</value>
+  </data>
+  <data name="VirtualListView_ForeColor" xml:space="preserve">
+    <value>Gets or sets the foreground color for the control.</value>
+  </data>
+  <data name="VirtualListView_FullRowSelect" xml:space="preserve">
+    <value>Indicates whether clicking an item selects all its sub-items.</value>
+  </data>
+  <data name="VirtualListView_GridLines" xml:space="preserve">
+    <value>Indicates whether grid lines appear between the rows and columns containing the items and sub-items in the control.</value>
+  </data>
+  <data name="VirtualListView_HeaderStyle" xml:space="preserve">
+    <value>Column header style.</value>
+  </data>
+  <data name="VirtualListView_HideSelection" xml:space="preserve">
+    <value>Indicates whether the selected item in the control remains highlighted when the control loses focus.</value>
+  </data>
+  <data name="VirtualListView_HoverSelection" xml:space="preserve">
+    <value>Indicates whether an item is automatically selected when the mouse pointer remains over the item for a few seconds.</value>
+  </data>
+  <data name="VirtualListView_LabelWrap" xml:space="preserve">
+    <value>Indicates whether item labels wrap when items are displayed in the control as icons.</value>
+  </data>
+  <data name="VirtualListView_LabelEdit" xml:space="preserve">
+    <value>Allows item labels to be edited in place by the users.</value>
+  </data>
+  <data name="VirtualListView_MultiSelect" xml:space="preserve">
+    <value>Indicates whether multiple items can be selected.</value>
+  </data>
+  <data name="VirtualListView_BorderSelection" xml:space="preserve">
+    <value>Indicates whether to use border rectangle to show selected items in Thumbnails mode.</value>
+  </data>
+  <data name="VirtualListView_View" xml:space="preserve">
+    <value>Specifies how items are displayed in the control.</value>
+  </data>
+  <data name="VirtualListView_IconicViewTextInfoId" xml:space="preserve">
+    <value>Specifies type of text for display in iconic views (List, Icons, Thumbnails).</value>
+  </data>
+  <data name="VirtualListView_FocusedItem" xml:space="preserve">
+    <value>Gets item that has focus.</value>
+  </data>
+  <data name="VirtualListView_GetInsertMark" xml:space="preserve">
+    <value> Retrieves the position of the insertion mark.</value>
+  </data>
+  <data name="VirtualListView_SetInsertMark" xml:space="preserve">
+    <value>Sets the insertion point to the defined position. An insertion point can only appear if the list-view control is in icon view, small icon view, or list view. To use this API, you must provide a manifest specifying Comclt32.dll version 6.0.</value>
+  </data>
+  <data name="VirtualListView_HitTest" xml:space="preserve">
+    <value>Determines which list-view item, if any, is at a specified position.</value>
+  </data>
+  <data name="VirtualListView_InsertMarkHitTest" xml:space="preserve">
+    <value>Retrieves the insertion point closest to a specified point.</value>
+  </data>
+  <data name="VirtualListView_FindNearestItem" xml:space="preserve">
+    <value>Finds the item nearest to the specified position. Search is supported only in icon and list modes.</value>
+  </data>
+  <data name="UnsupportedPlacementMode" xml:space="preserve">
+    <value>Specified placement mode is not supported.</value>
+  </data>
+  <data name="UnexpectedParameterType" xml:space="preserve">
+    <value>Parameter contains object of unexpected type.</value>
+  </data>
+  <data name="UnsupportedImageFitMode" xml:space="preserve">
+    <value>Specified image fit mode is not supported.</value>
+  </data>
+  <data name="UnsupportedPrintItemElement" xml:space="preserve">
+    <value>Specified print item element is not supported.</value>
+  </data>
+  <data name="TrilinearInterpolationIsNotSupported" xml:space="preserve">
+    <value>Trilinear interpolation mode is not supported in printing.</value>
+  </data>
+  <data name="InvalidPrinterResolution" xml:space="preserve">
+    <value>Printer resolution value should be above zero.</value>
+  </data>
+  <data name="ValueShouldBeLessThanBounds" xml:space="preserve">
+    <value>The value for resize should be less than destination bounds.</value>
+  </data>
+  <data name="DimensionsShouldBeAboveZero" xml:space="preserve">
+    <value>Dimensions of the value should be above zero. </value>
+  </data>
+  <data name="ResolutionShouldBePositive" xml:space="preserve">
+    <value>Resolution value should be above zero.</value>
+  </data>
+  <data name="UnableToRetrievePidlStream" xml:space="preserve">
+    <value>Unable to retrieve stream object for specified PIDL.</value>
+  </data>
+  <data name="ColumnSingleParentException" xml:space="preserve">
+    <value>Cannot add or insert ListColumn object in more than one place. You must remove it from its current location or clone it.</value>
+  </data>
+  <data name="ShouldHaveListColumnType" xml:space="preserve">
+    <value>The value type should be ListColumn.</value>
+  </data>
+  <data name="ListItemSingleParentException" xml:space="preserve">
+    <value>Cannot add or insert IListItem object in more than one place. You must remove it from its current location or clone it.</value>
+  </data>
+  <data name="ShouldHaveIListItemType" xml:space="preserve">
+    <value>The value should implement IListItem interface.</value>
+  </data>
+  <data name="UnsupportedViewMode" xml:space="preserve">
+    <value>Specified view mode is not supported.</value>
+  </data>
+  <data name="UnsupportedImageListType" xml:space="preserve">
+    <value>Specified image list type is not supported.</value>
+  </data>
+  <data name="NotImplementedInSystemImageList" xml:space="preserve">
+    <value>The overloaded function is not acceptable for the SystemImageList implementation of the IListViewImageList.</value>
+  </data>
+  <data name="NotImplementedInThumbnailImageList" xml:space="preserve">
+    <value>The overloaded function is not acceptable for the ThumbnailImageList implementation of the IListViewImageList.</value>
+  </data>
+  <data name="ICloneableImplementationForDragToMove" xml:space="preserve">
+    <value>List items should support ICloneable interface to use DragToMove mode.</value>
+  </data>
+  <data name="ListColumnDefaultCaption" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="ThumbnailListView_SortOnColumnClick" xml:space="preserve">
+    <value>Determines whether items of the control should be sorted with column header click.</value>
+  </data>
+  <data name="CannotChangeThumbnailSize" xml:space="preserve">
+    <value>Cannot change thumbnail size for the ThumbnailListView control because it is not empty.</value>
+  </data>
+  <data name="ImageDimensionsAreIncorrectForImageList" xml:space="preserve">
+    <value>Image dimensions are inappropriate for the image list object. </value>
+  </data>
+  <data name="VirtualListView_BackgroundImageTiled" xml:space="preserve">
+    <value>The value determining whether to fill whole background of the control with copies of the specified background image or not.</value>
+  </data>
+  <data name="VirtualListView_BackgroundImageOffset" xml:space="preserve">
+    <value>Offset of the background image (in percents) or initial tile offset of the background (in pixels) - depends on BackgroundImageTiled property value.</value>
+  </data>
+  <data name="ViewShouldBeIconic" xml:space="preserve">
+    <value>The control View property should be View.Icons or View.Thumbnails</value>
+  </data>
+  <data name="IconSpacingsTooSmall" xml:space="preserve">
+    <value>Icon spacing values should be set to 4 or larger. Use zero icon spacing to reset them to defaults.</value>
+  </data>
+  <data name="IconSpacingsTooBig" xml:space="preserve">
+    <value>Icon spacing should be less than 65535.</value>
+  </data>
+  <data name="ImageFitMode_ResizeToFill" xml:space="preserve">
+    <value>Resizes the image to fill all placeholder area (reserving the aspect ratio through). Some parts of the image may be cropped out.</value>
+  </data>
+  <data name="IListViewImageList_ContainsKey" xml:space="preserve">
+    <value>Determines whether the item with specified key is presented in the image list.</value>
+  </data>
+  <data name="IListViewImageList_IndexOfKey" xml:space="preserve">
+    <value>Finds index of the item identified by the key. </value>
+  </data>
+  <data name="IListViewImageList_RemoveByKey" xml:space="preserve">
+    <value>Removes item identified by the key from the image list.</value>
+  </data>
+  <data name="ThumbnailListView_ListItemBackgroundColor" xml:space="preserve">
+    <value>Sets or gets item's background color for Thumbnails mode of the control.</value>
+  </data>
+  <data name="CannotFindSpecifiedKeyInImageList" xml:space="preserve">
+    <value>Image with specified key value cannot be found in the ImageList.</value>
+  </data>
+  <data name="InternalImageListCannotBeNull" xml:space="preserve">
+    <value>Internal image list cannot be null.</value>
+  </data>
+  <data name="BitmapViewerDoesntImplementWorkspaceWidth" xml:space="preserve">
+    <value>BitmapViewer control doesn't implement setter of the WorkspaceWidth property.</value>
+  </data>
+  <data name="BitmapViewerDoesntImplementWorkspaceHeight" xml:space="preserve">
+    <value>BitmapViewer control doesn't implement setter of the WorkspaceHeight property.</value>
+  </data>
+  <data name="UnsupportedPrintingFitMode" xml:space="preserve">
+    <value>Printing error. Unsupported fit mode has been specified.</value>
+  </data>
+  <data name="CannotFindSpecifiedValueInCollection" xml:space="preserve">
+    <value>Cannot find specified value in the collection.</value>
+  </data>
+  <data name="ThumbListShouldBeInDetailsOrListMode" xml:space="preserve">
+    <value>ThumbnailListView control should be in Details or List mode.</value>
+  </data>
+  <data name="ThumbListShouldBeInListMode" xml:space="preserve">
+    <value>Control should be in List mode.</value>
+  </data>
+  <data name="Enum_ScrollBarsStyle" xml:space="preserve">
+    <value>Contains values which specify when to display scroll bars at the control.</value>
+  </data>
+  <data name="Enum_ScrollBarsStyle_None" xml:space="preserve">
+    <value>Scroll bars are never displayed regardless to the control content dimensions.</value>
+  </data>
+  <data name="Enum_ScrollBarsStyle_Always" xml:space="preserve">
+    <value>Scroll bars are always displayed regardless to the control content dimensions. If control content is too small, scroll bars are disabled.</value>
+  </data>
+  <data name="Enum_ScrollBarsStyle_Auto" xml:space="preserve">
+    <value>Scroll bars are displayed when control content is too large to fit the control client area. When content is too small, scroll bars are hidden.</value>
+  </data>
+  <data name="Enum_ViewportAlignment" xml:space="preserve">
+    <value>Contains possible values for the image alignment inside the control.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_LeftTop" xml:space="preserve">
+    <value>The bitmap is aligned by the left side horizontally and by the top vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_LeftCenter" xml:space="preserve">
+    <value>The bitmap is aligned by the left side horizontally and by the center vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_LeftBottom" xml:space="preserve">
+    <value>The bitmap is aligned by the left side horizontally and by the bottom vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_CenterTop" xml:space="preserve">
+    <value>The bitmap is aligned by the center horizontally and by the top vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_CenterCenter" xml:space="preserve">
+    <value>The bitmap is aligned by the center horizontally and by the center vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_CenterBottom" xml:space="preserve">
+    <value>The bitmap is aligned by the center horizontally and by the bottom vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_RightTop" xml:space="preserve">
+    <value>The bitmap is aligned by the right side horizontally and by the top vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_RightCenter" xml:space="preserve">
+    <value>The bitmap is aligned by the right side horizontally and by the center vertically.</value>
+  </data>
+  <data name="Enum_ViewportAlignment_RightBottom" xml:space="preserve">
+    <value>The bitmap is aligned by the right side horizontally and by the bottom vertically.</value>
+  </data>
+  <data name="Enum_ZoomQuality" xml:space="preserve">
+    <value>Contains possible values for the zoom quality of the image displayed in the control.</value>
+  </data>
+  <data name="Enum_ZoomQuality_Low" xml:space="preserve">
+    <value>Low quality.</value>
+  </data>
+  <data name="Enum_ZoomQuality_Medium" xml:space="preserve">
+    <value>Medium quality.</value>
+  </data>
+  <data name="Enum_ZoomQuality_High" xml:space="preserve">
+    <value>High quality.</value>
+  </data>
+  <data name="Enum_ZoomQuality_ShrinkHighStretchLow" xml:space="preserve">
+    <value>High quality when image is shrunk, low quality when it is stretched.</value>
+  </data>
+  <data name="Enum_WorkspaceBackgroundStyle" xml:space="preserve">
+    <value>Contains the values that defines the background of the bitmap.</value>
+  </data>
+  <data name="Enum_WorkspaceBackgroundStyle_None" xml:space="preserve">
+    <value>The background is filled with the solid color. This color is specified with the WorkspaceBackColor1 property.</value>
+  </data>
+  <data name="Enum_WorkspaceBackgroundStyle_Solid" xml:space="preserve">
+    <value>No specific background for the image is used. The background color is the same as a background color of the entire control.</value>
+  </data>
+  <data name="Enum_WorkspaceBackgroundStyle_Grid" xml:space="preserve">
+    <value>The checkboard grid is displayed. The primary checkboard color is specified by the WorkspaceBackColor1 property, the secondary one - by the WorkspaceBackColor2 property of the control.</value>
+  </data>
+  <data name="Enum_ZoomMode" xml:space="preserve">
+    <value>Contains possible values for the zooming modes.</value>
+  </data>
+  <data name="Enum_ZoomMode_None" xml:space="preserve">
+    <value>Zoom modifier is specified only manually. Use Zoom property. Also, you can use some zooming navigator controls.</value>
+  </data>
+  <data name="Enum_ZoomMode_BestFit" xml:space="preserve">
+    <value>Zoom modifier is calculated automatically so that entire image could fit the control. If image is smaller than the control client area, the image is stretched to occupy as much area as possible.</value>
+  </data>
+  <data name="Enum_ZoomMode_BestFitShrinkOnly" xml:space="preserve">
+    <value>Zoom modifier is calculated automatically so that entire image could fit the control. If image is smaller than the control client area, zooming modifier is set to 1 (i.e. no zoom).</value>
+  </data>
+  <data name="Enum_ZoomMode_FitToWidth" xml:space="preserve">
+    <value>Zoom modifier is calculated automatically so that the image width would be the same as the control client area width. If the image width is smaller than the control client area width, image is stretched.</value>
+  </data>
+  <data name="Enum_ZoomMode_FitToHeight" xml:space="preserve">
+    <value>Zoom modifier is calculated automatically so that the image height would be the same as the control client area height. If the image height is smaller than the control client area height, image is stretched.</value>
+  </data>
+  <data name="Enum_ZoomMode_ZoomControl" xml:space="preserve">
+    <value>The control is resized to have the same client area as the image dimensions.</value>
+  </data>
+  <data name="Enum_ZoomMode_FitToWidthShrinkOnly" xml:space="preserve">
+    <value>Zoom modifier is calculated automatically so that the image width would be the same as the control client area width. If the image width is smaller than the control client area width, zooming modifier is set to 1 (i.e. no zoom).</value>
+  </data>
+  <data name="Enum_ZoomMode_FitToHeightShrinkOnly" xml:space="preserve">
+    <value>Zoom modifier is calculated automatically so that the image height would be the same as the control client area height. If the image height is smaller than the control client area height, zooming modifier is set to 1 (i.e. no zoom).</value>
+  </data>
+  <data name="BitmapViewer" xml:space="preserve">
+    <value>This class represents scrollable viewport control.</value>
+  </data>
+  <data name="BitmapViewer_ScrollBarsStyle" xml:space="preserve">
+    <value>Gets/sets a value that specify whether to display scroll bar and whether to hide them automatically when the displayed image is less than the control size.</value>
+  </data>
+  <data name="BitmapViewer_VerticalSmallChange" xml:space="preserve">
+    <value>Gets/sets the small step of the vertical scroll bar.</value>
+  </data>
+  <data name="BitmapViewer_VerticalLargeChange" xml:space="preserve">
+    <value>Gets/sets the large step of the vertical scroll bar.</value>
+  </data>
+  <data name="BitmapViewer_HorizontalSmallChange" xml:space="preserve">
+    <value>Gets/sets the small step of the horizontal scroll bar.</value>
+  </data>
+  <data name="BitmapViewer_HorizontalLargeChange" xml:space="preserve">
+    <value>Gets/sets the large step of the horizontal scroll bar.</value>
+  </data>
+  <data name="BitmapViewer_ViewportAlignment" xml:space="preserve">
+    <value>Contains possible values for the image alignment inside the control.</value>
+  </data>
+  <data name="BitmapViewer_WorkspaceBorderEnabled" xml:space="preserve">
+    <value>Gets/sets the value that specifies whether to display the bitmap border.</value>
+  </data>
+  <data name="BitmapViewer_WorkspaceBorderWidth" xml:space="preserve">
+    <value>Gets/sets the width of the bitmap border.</value>
+  </data>
+  <data name="BitmapViewer_AlphaEnabled" xml:space="preserve">
+    <value>Gets/sets a value that specifies whether to alpha blend the bitmap or just copy (alpha channel is ignored).</value>
+  </data>
+  <data name="BitmapViewer_ZoomQuality" xml:space="preserve">
+    <value>Gets/sets the value that specifies a zoom quality.</value>
+  </data>
+  <data name="BitmapViewer_ActualSize" xml:space="preserve">
+    <value>Get/sets value that specifies whether to take into account the image resolution (DPI) during displaying.</value>
+  </data>
+  <data name="BitmapViewer_AutoUpdate" xml:space="preserve">
+    <value>Gets/sets a value that specifies whether control should be automatically updated after each change of the image.</value>
+  </data>
+  <data name="BitmapViewer_WorkspaceBackgroundStyle" xml:space="preserve">
+    <value>Gets/sets the background style of the image.</value>
+  </data>
+  <data name="BitmapViewer_WorkspaceBackColor1" xml:space="preserve">
+    <value>Gets/sets the primary color of the bitmap background (the first color of "check-board" or solid color).</value>
+  </data>
+  <data name="BitmapViewer_WorkspaceBackColor2" xml:space="preserve">
+    <value>Gets/sets the secondary color of the bitmap background (the second color of "check-board").</value>
+  </data>
+  <data name="IUserInputController" xml:space="preserve">
+    <value>This interface is implemented by all the controls which can manage user input (such as mouse events) of the Aurigma.GraphicsMill.WinControls.BitmapViewer control.</value>
+  </data>
+  <data name="INavigator" xml:space="preserve">
+    <value>This interface is implemented by all the navigator controls which can be attached to the Aurigma.GraphicsMill.WinControls.BitmapViewer through the Navigator property.</value>
+  </data>
+  <data name="IRubberband" xml:space="preserve">
+    <value>This interface is implemented by all the rubberband controls which can be attached to the Aurigma.GraphicsMill.WinControls.BitmapViewer through the Rubberband property.</value>
+  </data>
+  <data name="UserInputController" xml:space="preserve">
+    <value>This class contains the partial implementation for the Aurigma.GraphicsMill.WinControls.IUserInputController interface.</value>
+  </data>
+  <data name="PanNavigator" xml:space="preserve">
+    <value>This class represents a navigator which is used to pan the image inside the This class represents a navigator which is used to pan the image inside the Aurigma.GraphicsMill.WinControls.BitmapViewer control.</value>
+  </data>
+  <data name="ZoomInNavigator" xml:space="preserve">
+    <value>This class represents a navigator which is used to zoom the image displayed in the This class represents a navigator which is used to zoom the image displayed in the Aurigma.GraphicsMill.WinControls.BitmapViewer control in by the mouse click.</value>
+  </data>
+  <data name="ZoomOutNavigator" xml:space="preserve">
+    <value>This class represents a navigator which is used to zoom the image displayed in the Aurigma.GraphicsMill.WinControls.BitmapViewer control out by the mouse click.</value>
+  </data>
+  <data name="Enum_ResizeMode" xml:space="preserve">
+    <value>Contains possible resize modes for the rectangle rubberband (class Aurigma.GraphicsMill.WinControls.RectangleRubberband and its descendants).</value>
+  </data>
+  <data name="Enum_ResizeMode_None" xml:space="preserve">
+    <value>User cannot resize the rectangle. However you can still update Aurigma.GraphicsMill.WinControls.RectangleRubberband.Rectangle property.</value>
+  </data>
+  <data name="Enum_ResizeMode_Proportional" xml:space="preserve">
+    <value>User can resize the rectangle only with fixed aspect ratio.</value>
+  </data>
+  <data name="Enum_ResizeMode_Arbitrary" xml:space="preserve">
+    <value>User can resize the rectangle without keeping the aspect ratio.</value>
+  </data>
+  <data name="Enum_RectangleChangeMode" xml:space="preserve">
+    <value>Contains change types of selection rectangle (class Aurigma.GraphicsMill.WinControls.RectangleRubberband and its descendants).</value>
+  </data>
+  <data name="Enum_RectangleChangeMode_Changed" xml:space="preserve">
+    <value>Rectangle has already been changed.</value>
+  </data>
+  <data name="Enum_RectangleChangeMode_Moving" xml:space="preserve">
+    <value>Rectangle is moving.</value>
+  </data>
+  <data name="Enum_RectangleChangeMode_Resizing" xml:space="preserve">
+    <value>Rectangle is resizing.</value>
+  </data>
+  <data name="RectangleEventArgs" xml:space="preserve">
+    <value>Provides arguments for the events of the rectangle rubberband controls (inherited from the Aurigma.GraphicsMill.WinControls.RectangleRubberband class).</value>
+  </data>
+  <data name="Enum_MaskStyle" xml:space="preserve">
+    <value>Contains possible values for the Aurigma.GraphicsMill.WinControls.RectangleRubberband.MaskStyle which specifies when to display the mask around the rectangle represented with the Aurigma.GraphicsMill.WinControls.RectangleRubberband class.</value>
+  </data>
+  <data name="Enum_MaskStyle_None" xml:space="preserve">
+    <value>Never display the mask.</value>
+  </data>
+  <data name="Enum_MaskStyle_Always" xml:space="preserve">
+    <value>Display the mask always, even when the rectangle is moved or resized.</value>
+  </data>
+  <data name="Enum_MaskStyle_HideOnChange" xml:space="preserve">
+    <value>Display the mask only when the rectangle is not changing. If user moves or resizes the rectangle, the mask is hidden.</value>
+  </data>
+  <data name="RectangleController" xml:space="preserve">
+    <value>This is a base class for all the navigators or rubberbands which should display a rectangle.</value>
+  </data>
+  <data name="RectangleController_OutlineColor1" xml:space="preserve">
+    <value>Gets/sets the first color of the rectangle outline when it is dashed.</value>
+  </data>
+  <data name="RectangleController_OutlineColor2" xml:space="preserve">
+    <value>Gets/sets the second color of the rectangle outline when it is dashed.</value>
+  </data>
+  <data name="RectangleController_OutlineWidth" xml:space="preserve">
+    <value>Gets/sets the rectangle outline width.</value>
+  </data>
+  <data name="RectangleController_OutlineStyle" xml:space="preserve">
+    <value>Gets/sets the rectangle outline pen style (solid, dashed, etc).</value>
+  </data>
+  <data name="RectangleRubberband" xml:space="preserve">
+    <value>This class represents the rectangular rubberband.</value>
+  </data>
+  <data name="RectangleRubberband_RectangleChanging" xml:space="preserve">
+    <value>Fires during the rubberband rectangle modification (before the mouse button is released).</value>
+  </data>
+  <data name="RectangleRubberband_RectangleChanged" xml:space="preserve">
+    <value>Fires when the rubberband rectangle is modified (mouse button is released).</value>
+  </data>
+  <data name="RectangleRubberband_Ratio" xml:space="preserve">
+    <value>Gets/sets the aspect ratio of the rubberband rectangle which should be preserved when Aurigma.GraphicsMill.WinControls.RectangleRubberband.ResizeMode is Aurigma.GraphicsMill.WinControls.ResizeMode.Proportional.</value>
+  </data>
+  <data name="RectangleRubberband_ResizeMode" xml:space="preserve">
+    <value>Gets/sets an allowed resize mode for the rubberband rectangle.</value>
+  </data>
+  <data name="RectangleRubberband_Movable" xml:space="preserve">
+    <value>Gets/sets a value which specifies whether the rubberband rectangle can be dragged on the Aurigma.GraphicsMill.WinControls.BitmapViewer control.</value>
+  </data>
+  <data name="RectangleRubberband_Erasable" xml:space="preserve">
+    <value>Gets/sets a value that specifies whether the rubberband can be erased (discarded) when user clicks by a mouse out of this rectangle.</value>
+  </data>
+  <data name="RectangleRubberband_GripsVisible" xml:space="preserve">
+    <value>Gets/sets a value which shows or hides the grips on the rectangle.</value>
+  </data>
+  <data name="RectangleRubberband_GripSize" xml:space="preserve">
+    <value>Gets/sets the grip size.</value>
+  </data>
+  <data name="RectangleRubberband_GripColor" xml:space="preserve">
+    <value>Gets/sets the color of grips.</value>
+  </data>
+  <data name="RectangleRubberband_MaskStyle" xml:space="preserve">
+    <value>Gets/sets a value which specified when to enable masking of the area outside of the rectangle.</value>
+  </data>
+  <data name="RectangleRubberband_MaskColor" xml:space="preserve">
+    <value>Gets/sets the color of the mask.</value>
+  </data>
+  <data name="RectangleRubberband_MaskOpacity" xml:space="preserve">
+    <value>Gets/sets the opacity of the mask.</value>
+  </data>
+  <data name="EllipseRubberband" xml:space="preserve">
+    <value>This class represents an ellipse rubberband.</value>
+  </data>
+  <data name="ViewerBase_Navigator" xml:space="preserve">
+    <value>Gets/sets the navigator control which is responsible for the user input.</value>
+  </data>
+  <data name="ViewerBase_Rubberband" xml:space="preserve">
+    <value>Gets/sets currently attached rubberband control.</value>
+  </data>
+  <data name="ViewerBase_BorderStyle" xml:space="preserve">
+    <value>Gets/sets the border style of the control.</value>
+  </data>
+  <data name="ViewerBase_MinZoom" xml:space="preserve">
+    <value>Gets/sets the minimum allowed zoom value.</value>
+  </data>
+  <data name="ViewerBase_MaxZoom" xml:space="preserve">
+    <value>Gets/sets the maximum allowed zoom value.</value>
+  </data>
+  <data name="ViewerBase_Zoom" xml:space="preserve">
+    <value>Gets/sets the current zoom value.</value>
+  </data>
+  <data name="ViewerBase_WheelZoomAmount" xml:space="preserve">
+    <value>Gets/sets the zooming factor used during the mouse wheel scroll.</value>
+  </data>
+  <data name="ViewerBase_DefaultCursor" xml:space="preserve">
+    <value>Gets/sets the cursor that appears when the mouse over the control.</value>
+  </data>
+  <data name="ExStrUnexpectedScrollValue" xml:space="preserve">
+    <value>Unexpected scroll value has been specified.</value>
+  </data>
+  <data name="BitmapViewer_Unit" xml:space="preserve">
+    <value>Gets/sets units in which workspace is measured.</value>
+  </data>
+  <data name="BitmapViewer_WorkspaceBorderColor" xml:space="preserve">
+    <value>Gets/sets the color of the bitmap border.</value>
+  </data>
+  <data name="BitmapViewer_ColorManagementEngine" xml:space="preserve">
+    <value>Gets/sets a value which determines which color management engine to use.</value>
+  </data>
+</root>

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93E9218B-C1AB-427E-BE93-1B792CA1766C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Aurigma.GraphicsMill.WinControls</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Aurigma.GraphicsMill.WinControls</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aurigma.GraphicsMill, Version=8.2.17.0, Culture=neutral, PublicKeyToken=f4bbbf243f314012, processorArchitecture=AMD64">
+      <HintPath>..\packages\Aurigma.GraphicsMill.Core.x64.8.2.17\lib\net40\Aurigma.GraphicsMill.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Version\Version.cs">
+      <Link>Version.cs</Link>
+    </Compile>
+    <Compile Include="..\WinApiUtils\ComStreamWrapper.cs">
+      <Link>ComStreamWrapper.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\WinApiUtils\Pidl.cs">
+      <Link>Pidl.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\WinApiUtils\WinApiUtils.cs">
+      <Link>WinApiUtils.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BitmapViewer\BitmapViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BitmapViewer\UndoRedoCollection.cs" />
+    <Compile Include="BitmapViewer\UserInputController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ICoordinateMapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\BestFitDistributor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\BitmapPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Printing\ImagePrintItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\ImagePrintOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\ImageProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\ManualItemDistributor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\MultipleItemsDistributor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\PrintItemDistributor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\PrintUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Printing\SingleItemDistributor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ResourcesTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\DesignerClasses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\Events.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\FileInfoRetriever.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\IListItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\IListViewImageList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ImageListBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\IQueueItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ListColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ListColumnCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ListItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ListItemCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\Queue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\QueueManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\SystemImageList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ThumbListItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ThumbnailImageList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\ThumbnailListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThumbnailList\VirtualListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ViewerBase.cs" />
+    <EmbeddedResource Include="BitmapViewer\BitmapViewer.resx">
+      <DependentUpon>BitmapViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitmapViewer\Pan.cur" />
+    <EmbeddedResource Include="BitmapViewer\Select.cur" />
+    <EmbeddedResource Include="BitmapViewer\SelectZoom.cur" />
+    <EmbeddedResource Include="BitmapViewer\UserInputController.resx">
+      <DependentUpon>UserInputController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitmapViewer\ZoomIn.cur" />
+    <EmbeddedResource Include="BitmapViewer\ZoomOut.cur" />
+    <EmbeddedResource Include="Messages.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printing\BitmapPrintDocument.resx">
+      <DependentUpon>BitmapPrintDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\NET11\BitmapViewer.bmp" />
+    <EmbeddedResource Include="Resources\NET11\EllipseRubberband.bmp" />
+    <EmbeddedResource Include="Resources\NET11\ImagePrintDocument.bmp" />
+    <EmbeddedResource Include="Resources\NET11\PanNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET11\RectangleRubberband.bmp" />
+    <EmbeddedResource Include="Resources\NET11\ThumbnailList.bmp" />
+    <EmbeddedResource Include="Resources\NET11\ZoomInNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET11\ZoomOutNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET11\ZoomRectangleNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET20\BitmapViewer.bmp" />
+    <EmbeddedResource Include="Resources\NET20\EllipseRubberband.bmp" />
+    <EmbeddedResource Include="Resources\NET20\ImagePrintDocument.bmp" />
+    <EmbeddedResource Include="Resources\NET20\PanNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET20\RectangleRubberband.bmp" />
+    <EmbeddedResource Include="Resources\NET20\ThumbnailList.bmp" />
+    <EmbeddedResource Include="Resources\NET20\ZoomInNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET20\ZoomOutNavigator.bmp" />
+    <EmbeddedResource Include="Resources\NET20\ZoomRectangleNavigator.bmp" />
+    <EmbeddedResource Include="ThumbnailList\VirtualListView.resx">
+      <DependentUpon>VirtualListView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
